@@ -1,5 +1,5 @@
 <template>
-   <DashboardLayout>
+   <DashboardLayout :image="image">
         <div>
             <h4 class="mb-3 mb-md-0">Welcome to Dashboard</h4>
         </div>
@@ -7,7 +7,7 @@
 </template>
 <script>
 import DashboardLayout from './DashboardLayout.vue';
-import axios_client from '../../axios-client';
+import axios from 'axios';
   export default{
     data(){
       return{
@@ -17,11 +17,15 @@ import axios_client from '../../axios-client';
     components:{
       DashboardLayout
     },
+    mounted(){
+      this.get_image();
+    },
     methods:{
      get_image(){
-      axios_client.get('/admin/image')
+      axios.get('/admin/image')
         .then((response)=>{
-          this.image = response.data
+          this.image = response.data.image
+          console.log(this.image);
         })
      }
     }

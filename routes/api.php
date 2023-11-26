@@ -25,9 +25,9 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::post('/admin/register', [RegisterController::class, 'store']);
 
-Route::post('/admin/login', [LoginController::class, 'login']);
 
-Route::post('/admin/image', [LoginController::class, 'get_image']);
+
+
 
 
 Route::apiResource('departments', DepartmentController::class);

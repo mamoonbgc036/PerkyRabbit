@@ -17,6 +17,7 @@ class LoginController extends Controller
 
         if (Auth::attempt($credentials)) {
             $user = Auth::user();
+            $request->session()->regenerate();
             return response()->json($user);
         }
 
@@ -25,6 +26,6 @@ class LoginController extends Controller
 
     public function get_image()
     {
-        return Auth::user();
+        return response()->json(Auth::user());
     }
 }

@@ -84,7 +84,7 @@
 </div>
 </template>
 <script>
-import axios_client from '../../axios-client';
+import axios from 'axios';
 export default {
     data(){
         return {
@@ -98,11 +98,12 @@ export default {
     },
     methods:{
         admin_login(){
-            axios_client.post('/admin/login', this.form)
+            axios.post('/admin/login', this.form)
             .then((response)=>{
                 this.$router.push('/dashboard');
             })
             .catch((error)=>{
+                console.log(error);
                 this.emailError = error.response.data.errors.email[0]
                 this.passwordError = error.response.data.errors.password[0]
             })           
