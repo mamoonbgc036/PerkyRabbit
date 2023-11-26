@@ -4,7 +4,7 @@
 <img src="https://github.com/mamoonbgc036/Laravel_Vue_Ecom/blob/main/public/assets/img/shop.png" alt="Image Alt Text" style="width: 350px; height: 350px; display: inline;">
 <div class="row">
   <div class="column">
-    <img src="https://github.com/mamoonbgc036/Laravel_Vue_Ecom/blob/main/public/images/parky.png">
+    <img src="https://github.com/mamoonbgc036/PerkyRabbit/blob/main/public/image/parky.png">
   </div>
   <div class="column">
     <img src="public/images/parkyR.png">
