@@ -15,7 +15,7 @@ class EmployeeController extends Controller
      */
     public function index()
     {
-        return response()->json(Employee::with(['achievements', 'department'])->paginate(3));
+        return response()->json(Employee::with(['achievements', 'department'])->latest()->paginate(3));
     }
 
     /**
