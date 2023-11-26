@@ -1,0 +1,10 @@
+1.COMMENTS
+2.add spinner
+3.add toast
+4.code format
+
+<td v-if="employee.achievements.length < 2"><span class="badge bg-danger">{{ employee.achievements[0].name }}</span></td>
+
+
+
+
