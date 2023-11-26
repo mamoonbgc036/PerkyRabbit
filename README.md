@@ -47,7 +47,7 @@ php artisan migrate
 
 ```bash
 npm install
-
+php artisan serve
 npm run dev
 ```
 
