@@ -1,23 +1,75 @@
-## Project Demo:
-| Shop Page | Cart Page | Stripe |
-| ----------- | ----------- | ----------- |
-| <img src="https://github.com/mamoonbgc036/Laravel_Vue_Ecom/blob/main/public/assets/img/shop.png" alt="Image Alt Text" style="width: 350px; height: 350px; display: inline;"> | <img src="https://github.com/mamoonbgc036/Laravel_Vue_Ecom/blob/main/public/assets/img/cart.png" alt="Image Alt Text" style="width: 350px; height: 350px; display: inline;"> | <img src="https://github.com/mamoonbgc036/Laravel_Vue_Ecom/blob/main/public/assets/img/stripe.png" alt="Image Alt Text" style="width: 350px; height: 350px; display: inline;"> |
+<h1 align="center">Laravel + Vue.js Demo Application</h1>
 
-| Invoice Page | Pdf Page | Admin |
-| ----------- | ----------- | ----------- |
-| <img src="https://github.com/mamoonbgc036/Laravel_Vue_Ecom/blob/main/public/assets/img/invoice.png" alt="Image Alt Text" style="width: 350px; height: 350px; display: inline;"> | <img src="https://github.com/mamoonbgc036/Laravel_Vue_Ecom/blob/main/public/assets/img/pdf.png" alt="Image Alt Text" style="width: 350px; height: 350px; display: inline;"> | <img src="https://github.com/mamoonbgc036/Laravel_Vue_Ecom/blob/main/public/assets/img/admin.png" alt="Image Alt Text" style="width: 350px; height: 350px; display: inline;"> |
-## PROJECT TITLE : 
-Laravel_Vue_Ecom is a fictional online shopping marketplace for tree. It main purpose is to decorate every home with green in urban area. It does this by makeing buying tree and all services related to it easy only with a click of your smart phone.
+<p align="center">Simple Laravel and Vue.js Application for beginners, that demonstrate use of VueJs concepts like Two Way Binding, Computed Property, Components, Sub-Components, Vue Router, Vue Portal, Filters, CRUD etc...</p>
+<p align="center">Also contains useful components like Testimonials, Accordion, Carousel, Counter etc.</p>
 
-## PROJECT DESCRIPTION:
-The moto of the project is "click and get trees top and services at your door". It has every features an modern online marketplace have.
-It has following features 
-1. Login and logout features
-2. Seller can add product(Tree)
-3. Seller can add images of the products as many as they want
-4. He can view, edit and delete products.
-5. He can see orders and turn the order in different stages.
-6. He will have a nice dashboard.
-7. A nice landing pages 
-8. Online cart system
-9. Online payment with stripe
+> The Demo is divided into different SPA (Single Page Application) pages. It also showing use of MPA (Multi Page Application) and SPA (Single Page Application) both at the same time.
+
+## Screenshots
+
+<div class="row">
+  <div class="column">
+    <img src="public/images/screenshots/screenshot_1.png">
+  </div>
+  <div class="column">
+    <img src="public/images/screenshots/screenshot_2.png">
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img src="public/images/screenshots/screenshot_3.png">
+  </div>
+  <div class="column">
+    <img src="public/images/screenshots/screenshot_4.png">
+  </div>
+</div>
+
+
+
+## How To Use
+
+#### Clone the repository
+
+```bash
+git clone
+```
+
+#### Copy .env.example file to .env and edit credentials
+
+#### Install Via Composer
+
+```bash
+composer install
+```
+
+#### Generate Application Key
+
+```bash
+php artisan key:generate
+```
+
+#### Migrate Database
+
+```bash
+php artisan migrate
+```
+
+#### Run Seeder
+
+```bash
+php artisan db:seed
+```
+
+#### Install Dependencies
+
+```bash
+npm install
+
+npm run dev
+```
+
+#### All set.. Navigate to site url to browse demo. 
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
