@@ -36,5 +36,9 @@ npm install
 npm run dev
 ```
 
-#### All set.. Navigate to site url to browse demo. 
+#### All set.. Navigate to site url 
+#### Click `Not a user?Sign Up` at bottom of Login Page
+#### Create an account and will redirect to Dashboard Page
+#### Click Department menu at left sidebar and click Add Department and create some department
+#### go to Add Employee under Employees menu and create employee by clicking add employee button
 
