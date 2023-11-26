@@ -1,5 +1,21 @@
 <h1 align="center">Perky Rabbit Code Test</h1>
 
+## Screenshots
+
+<div class="row">
+  <div class="column">
+    <img src="public/images/parky.png">
+  </div>
+  <div class="column">
+    <img src="public/images/parkyR.png">
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img src="public/images/dashboard.png">
+  </div>
+</div>
+
 ## How To Use
 
 #### Clone the repository
